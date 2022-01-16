@@ -1,17 +1,18 @@
 {
-  "name": "backend-coderhouse",
+  "name": "server-cf",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Morimx/backend-coderhouse.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Claudio Fernandez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Morimx/backend-coderhouse/issues"
@@ -23,5 +24,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "description": "primer srv"
 }
